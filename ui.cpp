@@ -45,7 +45,7 @@ void UI::update(Apsuke *apsuke) {
       setContrast(C_MAX);
 
       put("VW");
-      tmp = String(vape->getBattery() / 4.2 * 100, 0) + "%";
+      tmp = String(vape->getBattery(), 0) + "%";
       tmp.toCharArray(buf, 100);
       setCursor(128 - (strlen(buf)*6), 0);
       put(buf);

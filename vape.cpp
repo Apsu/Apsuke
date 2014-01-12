@@ -33,7 +33,7 @@ float Vape::getTime() {
 }
 
 float Vape::getBattery() {
-  return _battery;
+  return _battery / 4.2 * 100.0;
 }
 
 void Vape::setVolts(float volts) {
