@@ -8,7 +8,8 @@ This is a work in progress, and probably unusable by most anyone but... here it 
 Example
 -------
 
-```#include <Wire.h>
+```
+#include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Apsuke.h>
@@ -24,4 +25,5 @@ void setup() {
 
 void loop() {
   apsuke->update();
-}```
+}
+```
