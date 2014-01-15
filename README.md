@@ -7,8 +7,8 @@ This is a work in progress, and probably unusable by most anyone but... here it 
 
 Requirements
 ---
-Adafruit GFX
-Adafruit SSD1306
+- Adafruit GFX
+- Adafruit SSD1306
 
 Installation
 ---
