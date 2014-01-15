@@ -1,12 +1,21 @@
 Apsuke
-======
+===
 
 Welcome to a first stab at a library for powering the Apsuke mod!
 
 This is a work in progress, and probably unusable by most anyone but... here it is.
 
+Requirements
+---
+Adafruit GFX
+Adafruit SSD1306
+
+Installation
+---
+Refer to the Arduino documentation for installing the library, but, basically it's just "copy the contents of this repo to the Arduino libraries directory, in a subdirectory named Apsuke".
+
 Example
--------
+---
 
 ```
 #include <Wire.h>
