@@ -10,7 +10,7 @@ class UI;
 
 class Apsuke {
   public:
-    Apsuke(const int buttonCount, const int *buttonMapping);
+    Apsuke(const int buttonCount, const int *buttonMapping, const int ssPin);
 
     Joystick *getJoystick();
     Vape *getVape();
@@ -24,6 +24,8 @@ class Apsuke {
     Joystick *_joy;
     Vape *_vape;
     UI *_ui;
+    int _pwm;
+    int _fire;
 };
 
 #endif //__APSUKE_H__
